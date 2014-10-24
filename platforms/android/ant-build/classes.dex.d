@@ -1,0 +1,25 @@
+c:\desenv\legislacao\platforms\android\ant-build\classes.dex : \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\BuildConfig.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\Legislacao.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\R$attr.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\R$drawable.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\R$string.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\R$xml.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\br\org\coffito\legislacao\R.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$1.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$2.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$3.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4$1.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$4.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$1.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$2.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$3.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5$4.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$5.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser$InAppBrowserClient.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowser.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppBrowserDialog.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\inappbrowser\InAppChromeClient.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
+c:\desenv\legislacao\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
+c:\desenv\legislacao\platforms\android\ant-build\dexedLibs\classes-2f4ccebe7c7b3f3ccb45bd55e3e767cd.jar \
