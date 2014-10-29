@@ -126,7 +126,7 @@ var executaBusca = function() {
 
 var getContent = function(a) {
     var jsonParam = {"articleid":""+a.id+""};
-	var serviceurl = "http://coffito2.hospedagemdesites.ws/site/webservices/vasculhalei/ws-vasculhalei-getcontent.php";
+	var serviceurl = "http://coffito.org.br/site/webservices/vasculhalei/ws-vasculhalei-getcontent.php";
 	$.blockUI({ message: '<h1>Buscando ...</h1>' });
     $.ajax({
         type: "GET",
