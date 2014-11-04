@@ -25,12 +25,12 @@
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
     </feature>
-    <name>Legislacao</name>
+    <name>Legisla��o</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Consulta nas resolu��es do site do COFFITO on-line.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="vinicius@coffito.org.br" href="http://cordova.io">
+        Departamento de Inform�tica do COFFITO.
     </author>
     <content src="index.html" />
     <access origin="*" />
