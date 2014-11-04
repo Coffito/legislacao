@@ -11,7 +11,7 @@
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
-    <name>Legislação</name>
+    <name>Legislacao</name>
     <description>
         Consulta nas resoluções do site do COFFITO on-line.
     </description>
