@@ -13,10 +13,10 @@
     </feature>
     <name>Legislação</name>
     <description>
-        Consulta das resoluções on-line no site do COFFITO.
+        Consulta nas resoluções do site do COFFITO on-line.
     </description>
-    <author email="vinicius@coffito.org.br" href="http://cordova.io">
-        Departamento de Informática do Coffito
+    <author email="presidencia@coffito.org.br" href="http://www.coffito.org.br">
+        Departamento de Informática do COFFITO.
     </author>
     <content src="index.html" />
     <access origin="*" />
