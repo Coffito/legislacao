@@ -11,12 +11,12 @@
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
-    <name>Legisla��o</name>
+    <name>Legislacao</name>
     <description>
-        Consulta nas resolu��es do site do COFFITO on-line.
+        Consulta nas resolucoes do site do COFFITO on-line.
     </description>
     <author email="vinicius@coffito.org.br" href="http://cordova.io">
-        Departamento de Inform�tica do COFFITO.
+        Departamento de Informatica do COFFITO.
     </author>
     <content src="index.html" />
     <access origin="*" />
