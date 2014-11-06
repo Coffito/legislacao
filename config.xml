@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml version='1.0' encoding='iso-8859-1'?>
 <widget id="br.org.coffito.legislacao" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Legislacao</name>
+    <name>Legislacão</name>
     <description>
         Consulta nas resoluções do site do COFFITO on-line.
     </description>

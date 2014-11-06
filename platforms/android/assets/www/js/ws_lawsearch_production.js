@@ -78,9 +78,18 @@ var executaBusca = function() {
 
         return;
     }
+
+    paramValue = paramValue.toLowerCase();
+    paramValue = paramValue.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a')
+                    .replace(new RegExp('[ÉÈÊ]','gi'), 'e')
+                    .replace(new RegExp('[ÍÌÎ]','gi'), 'i')
+                    .replace(new RegExp('[ÓÒÔÕ]','gi'), 'o')
+                    .replace(new RegExp('[ÚÙÛ]','gi'), 'u')
+                    .replace(new RegExp('[Ç]','gi'), 'c');
+
     var jsonParam = {"param":""+paramValue+""};
 
-   $.blockUI({ message: '<h1>Buscando ...</h1>' });
+   $.blockUI({ message: '...' });
 
    $.ajax({
         type: "GET",
@@ -98,7 +107,10 @@ var executaBusca = function() {
 				$("#results").html("");
 				$("#content").html("");
 				if(data.articles.length == 0) {
+				    $("ul.ui-listview").quickPagination();
                     $("#results").append("<p style='text-align:center'>Nenhum resultado encontrado!</p>");
+                    $("#results-container").css("display", "inline");
+                    $("#results").addClass("results");
                     return;
                 }
 				$.each(data.articles, function(key, value) {
@@ -127,7 +139,7 @@ var executaBusca = function() {
 var getContent = function(a) {
     var jsonParam = {"articleid":""+a.id+""};
 	var serviceurl = "http://coffito.org.br/site/webservices/vasculhalei/ws-vasculhalei-getcontent.php";
-	$.blockUI({ message: '<h1>Buscando ...</h1>' });
+	$.blockUI({ message: '...' });
     $.ajax({
         type: "GET",
         contentType: "application/json; charset=utf-8",
