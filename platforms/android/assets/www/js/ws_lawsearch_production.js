@@ -10,17 +10,18 @@
     It creates an hyperlink for each page found.
 
  */
- 
+
 /*
 	Evitando que o formulário seja submetido quando o usuário clicar no botão enter"
- */ 
+*/
 $(document).ready(function() {
     $("#content-container").css("display", "none");
     $("#results-container").css("display", "none");
 
-    $(window).keydown(function(event){
+   $(window).keydown(function(event){
     if( (event.keyCode == 13)) {
       event.preventDefault();
+      executaBusca();
       return false;
     }
     });
@@ -87,7 +88,7 @@ var executaBusca = function() {
                     .replace(new RegExp('[ÚÙÛ]','gi'), 'u')
                     .replace(new RegExp('[Ç]','gi'), 'c');
 
-    var jsonParam = {"param":""+paramValue+""};
+   var jsonParam = {"param":""+paramValue+""};
 
    $.blockUI({ message: '...' });
 
@@ -132,7 +133,7 @@ var executaBusca = function() {
             }
             $.unblockUI();
         } // end error
-		
+
 	}); // end ajax
 }
 
@@ -153,8 +154,14 @@ var getContent = function(a) {
             $("#results-container").css("display", "none");
 			$("#param_search").css("display", "none");
 			$("#content-container").css("display", "inline");
-			$("#content").html("");	
+			$("#content").html("");
             $("#content").append(data.content);
+            $("#content p").each(function() {
+                if($(this).css("margin-left") > "150px" ) {
+                    $(this).css("margin-left", "0px");
+                    $(this).css("text-align", "right");
+                }
+            });
             $("#content a").each(function(){
                 var url = $(this).attr('href');
                 $(this).on('click', function() {
@@ -177,5 +184,5 @@ var getContent = function(a) {
 var getBack = function() {
 	$("#content-container").css("display", "none");
 	$("#results-container").css("display", "inline");
-	$("#param_search").css("display", "inline");	
+	$("#param_search").css("display", "inline");
 }

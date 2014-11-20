@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.search-param-field {
+	float: left;
+}
+
+#campo_search {
+	width: 150px;
+}
+
+.search-param-button {
+	position: relative;
+	top: -45px;
+	left: 165px;
+	width: 80px;
+}
+
+.results {
+	position: relative;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.results-container {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-container {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify !important;
+    max-width: 100%;
+}
+
+#header-img {
+    /*left: 50%;*/
+    /*margin-left: -500px;*/
+    /*background:url(../img/logo-coffito-2500x659.png) no-repeat;*/
+     max-width: 100%;
+     height: auto;
+
+    /*width: 435px;
+	height: 115px;*/
+}
+
+#application-title {
+    text-align: center;
+    font-weight: bold;
+}
